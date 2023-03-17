@@ -22,14 +22,18 @@ var textChange = function (index) {
 
 // Vaihtoehtoiset sisällöt
 var indexHTML =
-  "<div><h4>Jousisoittimet</h4>\
+  '<div class="mx-auto" style="width: 600px">\
+  <img src="./assets/string_instruments_new.jpg" alt="StringInstruments" style="width:100%"></div>\
+  <div><h4>Jousisoittimet</h4>\
 <p>Jousisoittimet ovat instrumentteja joiden soittamiseen käytetään jousta. Yleisimmin tunnettuja jousisoittimia on neljä: \
-viulu, alttoviulu, sello ja kontrabasso. Ensimmäiset jousisoittimet kehitettiin jo 1500 luvulla Italiassa.\
-Nykyisin jousisoittimissa on käytössä neljä kieltä. Jousisoittimet yhtenevät muodoltaan, mutta eroavat koonsa puolesta.\
-Jousisoittimia käytetään soolo- ja orkesterisoittimina monenlaisissa kokoonpanoissa ja useissa musiikkityyleissä.</p></div>";
+viulu, alttoviulu, sello ja kontrabasso. Ensimmäiset jousisoittimet kehitettiin jo 1500 luvulla Italiassa. \
+Nykyisin jousisoittimissa on käytössä neljä kieltä. Jousisoittimet yhtenevät muodoltaan, mutta eroavat koonsa puolesta. \
+Jousisoittimia käytetään soolo- ja orkesterisoittimina monenlaisissa kokoonpanoissa ja useissa musiikkityyleissä.</p></div>';
 
 const violinHTML =
-  "<h4>Viulu</h4>\
+  '<div class="mx-auto" style="width: 600px">\
+  <img src="./assets/small_violin_new.jpg" alt="Violin" style="width:100%"></div>\
+  <h4>Viulu</h4>\
 <p>Viulu on jousisoitinperheen korkeaäänisin soitin. Viulussa on neljä kieltä, jotka viritetään kvintin välein: \
 g–d1–a1–e2 tai IPN:n mukaan G3-D4-A4-E5 (järjestyksessä matalaäänisimmästä kielestä korkeimpaan).</p>\
 <h5>Historia</h5>\
@@ -57,10 +61,12 @@ Sen jälkeen viuluun ei ole enää tehty mitään merkittäviä uudistuksia.</p>
 ja soittaja sääteli jouhien kireyttä painamalla niitä sormillaan. Ranskalainen Francois Tourte kehitti 1780-luvulla uuden, \
 pidemmän ja kevyemmän jousityypin, joka on edelleen käytössä lähes samanlaisena.</p>\
 <p>Paganini vei 1800-luvulla viulun soittotekniikkaa uudelle tasolle muun muassa yläasemasoitossa, \
-oktaavisoitossa ja vasemman käden pizzicatoissa.</p>";
+oktaavisoitossa ja vasemman käden pizzicatoissa.</p>';
 
 const violaHTML =
-  "<h4>Alttoviulu</h4>\
+  '<div class="mx-auto" style="width: 600px">\
+  <img src="./assets/small_viola_new.jpg" alt="Viola" style="width:100%"></div>\
+  <h4>Alttoviulu</h4>\
 <p>Alttoviulu (suom. joskus myös viola, ransk. alto, engl. viola, saks. Bratsche) kuuluu jousisoittimiin, \
 tarkemmin viuluperheeseen. Se on hieman suurempi ja tummaäänisempi kuin viulu.</p>\
 <p>Alun perin viola oli nimitys joukolle jousisoittimia, joita alettiin valmistaa keskiajalla. \
@@ -73,10 +79,12 @@ Osiltaan tämä johtuu siitä, että alttoviulu on viuluperheen alttosoitin, ja 
 <p>Alttoviulun kaikukoppa on kielten pituuteen ja paksuuteen suhteutettuna liian pieni. \
 On laskettu, että kaikukopan tulisi oikeastaan olla yli puoli metriä pitkä. \
 Sellaista alttoviulua ei tosin kukaan pystyisi soittamaan, koska soittimen on mahduttava leuan ja käden väliin. \
-Viululla eivät mittasuhteet ole muuttuneet lähellekään niin paljon kuin ne ovat alttoviululla muuttuneet 1600-luvulta lähtien.</p>";
+Viululla eivät mittasuhteet ole muuttuneet lähellekään niin paljon kuin ne ovat alttoviululla muuttuneet 1600-luvulta lähtien.</p>';
 
 const celloHTML =
-  "<h4>Sello</h4>\
+  '<div class="mx-auto" style="width: 600px">\
+  <img src="./assets/small_cello_new.jpg" alt="Cello" style="width:100%"></div>\
+  <h4>Sello</h4>\
 <p>Sello (< ital. cello) on jousisoitin, joka muistuttaa jossakin määrin viulua ja alttoviulua. \
 Sello on kuitenkin paljon suurempi, ja toisin kuin alttoviulua, sitä soitetaan pystyasennossa. \
 Soittaja perinteisesti istuu soittaessaan ja pitää selloa jalkojensa välissä. \
@@ -94,11 +102,19 @@ Useimmat tunnetut viulunrakentajat (muiden muassa italialaiset Amati, Stradivari
 muissa kamarimusiikkiryhmissä. Sellolle on sävelletty lukuisia konserttoja ja sonaatteja. Populaarimusiikissa sello on harvinaisempi. \
 Vaikka sello saattaa olla mukana joissakin kappaleissa tai levytyksissä, on harvinaista, että se kuuluisi yhtyeen peruskokoonpanoon. \
 Poikkeuksena tästä on esimerkiksi Apocalyptica, 2Cellos ja Piano guys. Apocalyptica on maailmanlaajuisesti menestynyt suomalainen sellistiryhmä, \
-jonka musiikillista tyyliä on luonnehdittu muun muassa sinfoniseksi metalliksi.</p>";
+jonka musiikillista tyyliä on luonnehdittu muun muassa sinfoniseksi metalliksi.</p>';
 
 const doubleBassHTML =
-  "<h4>Kontrabasso</h4>\
-<p>Kontrabasso on jousisoitinperheen suurikokoisin jäsen. Kamari- ja sinfoniaorkesterissa sillä on tärkeä rooli, sillä matalan äänialansa ansiosta se luo orkesterin sointiin syvyyttä. Tavallisesti kontrabasso soi oktaavin selloa alempaa.[2] Taidemusiikissa kontrabasson käyttö soolosoittimena on yleistynyt modernien teräskielien kehityksen johdosta. Nykymusiikin säveltäjille kontrabasson pitkä soiva kielenpituus tarjoaa monia mielenkiintoisia mahdollisuuksia. Jazzmusiikissa kontrabassolla on keskeinen osa ja sillä soitetaan usein myös sooloja. Populaarimusiikissa bassokitara syrjäytti kontrabasson 1950-luvun loppuessa, mutta se oli sitä ennen hyvin yleinen. Soitinta käytetään paljon myös kansanmusiikissa.</p>\
+  '<div class="mx-auto" style="width: 600px">\
+  <img src="./assets/small_double_bass_new.jpg" alt="DoubleBass" style="width:100%"></div>\
+  <h4>Kontrabasso</h4>\
+<p>Kontrabasso on jousisoitinperheen suurikokoisin jäsen. Kamari- ja sinfoniaorkesterissa sillä on tärkeä rooli, \
+sillä matalan äänialansa ansiosta se luo orkesterin sointiin syvyyttä. Tavallisesti kontrabasso soi oktaavin selloa alempaa. \
+Taidemusiikissa kontrabasson käyttö soolosoittimena on yleistynyt modernien teräskielien kehityksen johdosta. \
+Nykymusiikin säveltäjille kontrabasson pitkä soiva kielenpituus tarjoaa monia mielenkiintoisia mahdollisuuksia. \
+Jazzmusiikissa kontrabassolla on keskeinen osa ja sillä soitetaan usein myös sooloja. \
+Populaarimusiikissa bassokitara syrjäytti kontrabasson 1950-luvun loppuessa, mutta se oli sitä ennen hyvin yleinen. \
+Soitinta käytetään paljon myös kansanmusiikissa.</p>\
 <h5>Historia</h5>\
 <p>Varhaisimmat kontrabassot ovat peräisin 1600-luvun alusta, ja niiden muoto kehittyi violonesta, \
 gambaperheen bassosoittimesta. Toisin kuin violonessa, kontrabassoissa ei ollut otenauhoja, \
@@ -110,7 +126,7 @@ ja kieliä oli useimmiten neljä violonen kuuteen verrattuna. Kielinä käytetti
 Sillä on kaksi vaihtoehtoista perusmuotoa: viola da gamban (johdantokuvassa) tai viulun muoto. \
 Myös muun mallisia kontrabassoja on rakennettu, kuten busetto ja esimerkiksi kitaran muotoon.</p>\
 <p>Kontrabasson alkuperä on viola da gamba -suvussa, mikä ilmenee yksityiskohtina soittimen rakenteessa. \
-Kontrabassossa on gamba-tyyliset kapeammat 'olkapäät' (erona viuluperheen soittimien pyöreämpään malliin) \
+Kontrabassossa on gamba-tyyliset kapeammat olkapäät (erona viuluperheen soittimien pyöreämpään malliin) \
 ja soitin on mahdollisesti tasapohjainen (viuluperheen jousisoittimissa pohja on kupera). \
 Kontrabasso poikkeaa myös viritysjärjestelmältään: se viritetään kvarttivireeseen \
 (muut sinfoniaorkesterissa esiintyvät jousisoittimet ovat kvinttivireisiä).</p>\
@@ -121,4 +137,4 @@ Tyypillisesti sooloteoksia ja kamarimusiikkia soitetaan pienempikokoisimmilla so
 Viulu ja sello puolestaan ovat mitoiltaan hyvin standardoituneet \
 (alttoviulun mitoissa on sen sijaan ollut jonkin verran vaihtelua). Yleisimmin kontrabasso on ¾-kokoinen \
 (vaikkakin tämä kokoluokitus kontrabasson kohdalla on harhaanjohtava), \
-ja kielen soiva pituus on 100–110 senttimetriä.</p>";
+ja kielen soiva pituus on 100–110 senttimetriä.</p>';
