@@ -23,7 +23,7 @@ var textChange = function (index) {
 // Vaihtoehtoiset sisällöt
 var indexHTML =
   '<div class="mx-auto" style="width: 600px">\
-  <img src="https://github.com/kostihiltunen/kostihiltunen.github.io/blob/main/assets/string_instruments_new.jpg" alt="StringInstruments" style="width:100%"></div>\
+  <img src="./assets/string_instruments_new.jpg" alt="StringInstruments" style="width:100%"></div>\
   <div><h4>Jousisoittimet</h4>\
 <p>Jousisoittimet ovat instrumentteja joiden soittamiseen käytetään jousta. Yleisimmin tunnettuja jousisoittimia on neljä: \
 viulu, alttoviulu, sello ja kontrabasso. Ensimmäiset jousisoittimet kehitettiin jo 1500 luvulla Italiassa. \
