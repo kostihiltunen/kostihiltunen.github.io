@@ -22,8 +22,8 @@ var textChange = function (index) {
 
 // Vaihtoehtoiset sisällöt
 var indexHTML =
-  "<div><h4>Jousisoittime</h4>\
-<p>Jousisoittimet ovat instrumentteja joiden soittamiseen käytetään jousta. Yleisimmin tunnettuja jousisoittimia on neljä:\
+  "<div><h4>Jousisoittimet</h4>\
+<p>Jousisoittimet ovat instrumentteja joiden soittamiseen käytetään jousta. Yleisimmin tunnettuja jousisoittimia on neljä: \
 viulu, alttoviulu, sello ja kontrabasso. Ensimmäiset jousisoittimet kehitettiin jo 1500 luvulla Italiassa.\
 Nykyisin jousisoittimissa on käytössä neljä kieltä. Jousisoittimet yhtenevät muodoltaan, mutta eroavat koonsa puolesta.\
 Jousisoittimia käytetään soolo- ja orkesterisoittimina monenlaisissa kokoonpanoissa ja useissa musiikkityyleissä.</p></div>";
