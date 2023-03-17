@@ -1,3 +1,8 @@
+// Latausfunktio aloitussisällön lataamiseksi
+function LoadInitialContent() {
+  document.getElementById("contentElement").innerHTML = indexHTML;
+}
+
 // Sisällön vaihtaminen navigointipalkin valintojen perusteella
 var textChange = function (index) {
   if (index == 0) {
