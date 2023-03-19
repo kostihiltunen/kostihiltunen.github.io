@@ -28,12 +28,10 @@ var indexHTML =
 viulu, alttoviulu, sello ja kontrabasso. Ensimmäiset jousisoittimet kehitettiin jo 1500 luvulla Italiassa. \
 Nykyisin jousisoittimissa on käytössä neljä kieltä. Jousisoittimet yhtenevät muodoltaan, mutta eroavat koonsa puolesta. \
 Jousisoittimia käytetään soolo- ja orkesterisoittimina monenlaisissa kokoonpanoissa ja useissa musiikkityyleissä.</p></div>\
-<div>\
 <audio controls>\
   <source src="./assets/quartet_f_maj.mp3" type="audio/mpeg">\
   Your browser does not support the audio element.\
 </audio>\
-</div>\
 <div class="container-fluid bg-white min-vh-100">\
 <img src="./assets/smaller_wallpaper.jpg" class="img-fluid" alt="StringQuartetStands" style="width:80%">\
 </div>\
