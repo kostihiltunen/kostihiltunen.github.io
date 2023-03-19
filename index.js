@@ -18,8 +18,6 @@ var textChange = function (index) {
   }
 };
 
-// Sisällön vaihtaminen navigointipalkin valintojen perusteella
-
 // Vaihtoehtoiset sisällöt
 var indexHTML =
   '<div class="mx-auto" style="width: 600px">\
@@ -28,7 +26,14 @@ var indexHTML =
 <p>Jousisoittimet ovat instrumentteja joiden soittamiseen käytetään jousta. Yleisimmin tunnettuja jousisoittimia on neljä: \
 viulu, alttoviulu, sello ja kontrabasso. Ensimmäiset jousisoittimet kehitettiin jo 1500 luvulla Italiassa. \
 Nykyisin jousisoittimissa on käytössä neljä kieltä. Jousisoittimet yhtenevät muodoltaan, mutta eroavat koonsa puolesta. \
-Jousisoittimia käytetään soolo- ja orkesterisoittimina monenlaisissa kokoonpanoissa ja useissa musiikkityyleissä.</p></div>';
+Jousisoittimia käytetään soolo- ja orkesterisoittimina monenlaisissa kokoonpanoissa ja useissa musiikkityyleissä.</p></div>\
+<div class="container-fluid bg-white min-vh-100">\
+<img src="./assets/smaller_wallpaper.jpg" class="img-fluid" alt="StringQuartetStands" style="width:80%">\
+</div>\
+<div class="container-fluid bg-white min-vh-100">\
+<img src="./assets/wallpaper.jpg" alt="StringQuartet" style="width:100%">\
+</div>\
+';
 
 const violinHTML =
   '<div class="mx-auto" style="width: 600px">\
