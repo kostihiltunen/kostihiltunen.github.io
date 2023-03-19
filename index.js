@@ -21,12 +21,19 @@ var textChange = function (index) {
 // Vaihtoehtoiset sisällöt
 var indexHTML =
   '<div class="mx-auto" style="width: 600px">\
-  <img src="./assets/string_instruments_new.jpg" alt="StringInstruments" style="width:100%"></div>\
+    <img src="./assets/string_instruments_new.jpg" alt="StringInstruments" style="width:100%">\
+  </div>\
   <div><h4>Jousisoittimet</h4>\
 <p>Jousisoittimet ovat instrumentteja joiden soittamiseen käytetään jousta. Yleisimmin tunnettuja jousisoittimia on neljä: \
 viulu, alttoviulu, sello ja kontrabasso. Ensimmäiset jousisoittimet kehitettiin jo 1500 luvulla Italiassa. \
 Nykyisin jousisoittimissa on käytössä neljä kieltä. Jousisoittimet yhtenevät muodoltaan, mutta eroavat koonsa puolesta. \
 Jousisoittimia käytetään soolo- ja orkesterisoittimina monenlaisissa kokoonpanoissa ja useissa musiikkityyleissä.</p></div>\
+<div>\
+<audio controls>\
+  <source src="./assets/quartet_f_maj.mp3" type="audio/mpeg">\
+  Your browser does not support the audio element.\
+</audio>\
+</div>\
 <div class="container-fluid bg-white min-vh-100">\
 <img src="./assets/smaller_wallpaper.jpg" class="img-fluid" alt="StringQuartetStands" style="width:80%">\
 </div>\
