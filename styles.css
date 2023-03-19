@@ -10,3 +10,7 @@ img {
 #imgIcon {
   max-height: 80px;
 }
+
+#contentElement {
+  padding-bottom: 100px;
+}
